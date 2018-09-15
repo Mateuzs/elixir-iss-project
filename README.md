@@ -10,8 +10,8 @@ and formats it to readable, nice table.
 1. Download this repo. 
 2. Go to the repo directory. 
 3. In your command line type : ``` mix escript.build ``` 
-4. Use the app: ```./issues [github-username] [ project-name] [numbe-of-issues ] ```
+4. Use the app: ```./issues [github-username] [project-name] [number-of-issues] ```
 
-Example: ```./ issues elixir-lang elixir 4 ```
+Example: ```./issues elixir-lang elixir 4 ```
 
 
