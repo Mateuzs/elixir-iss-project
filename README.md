@@ -1,21 +1,17 @@
 # Issues
 
-**TODO: Add description**
 
-## Installation
+Small app written in Elixir, fetches the data from github api about defined by user project issues
+and formats it to readable, nice table.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `issues` to your list of dependencies in `mix.exs`:
 
-```elixir
-def deps do
-  [
-    {:issues, "~> 0.1.0"}
-  ]
-end
-```
+# Installation
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/issues](https://hexdocs.pm/issues).
+1. Download this repo. 
+2. Go to the repo directory. 
+3. In your command line type : ``` mix escript.build ``` 
+4. Use the app: ```./issues [github-username] [ project-name] [numbe-of-issues ] ```
+
+Example: ```./ issues elixir-lang elixir 4 ```
+
 
